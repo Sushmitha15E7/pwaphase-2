@@ -1,0 +1,41 @@
+body{
+  background: #F8C2A8;
+  text-align: center;
+}
+header{
+  background:#32F274;
+  text-align: center;
+  font-style:normal;
+  font-weight:bolder;
+  text-decoration-color: #C81389;
+}
+img{
+  width:70%;
+  height:70%;
+  float:right;
+}
+a{
+  float:right;
+  margin-right: 45%;
+}
+.child{
+  width:20%;
+  height:60%;
+  padding:1%;
+  margin: 1%;
+  border-radius: 2px solid blue;
+  text-align: center;
+  display:block;
+  background-color:#FCFCA9  ;
+  justify-content:space-around;
+}
+.child img {
+  width:300px;
+  height:200px;
+}
+.link{
+  /* text-decoration: none; */
+  /* background-color: red; */
+  color: blue;
+
+}

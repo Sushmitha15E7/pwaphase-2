@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form page</title>
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="parent">
+<!-- career objective -->
+      <div class="career">
+        <h1>Career Objective</h1>
+        <input type="text" name="career" id="career" placeholder="career objective">
+      </div>
+      <div class="details">
+        <h1>Personal Details</h1>
+        <input type="text" name="name" id="name" placeholder="enter name"><br>
+        <input type="number" name="mobile" id="mobile" placeholder="enter mobile number"><br>
+        <input type="email" name="emailid" id="emailid" placeholder="enter emailid"><br>
+        <input type="text" name="address" id="address" placeholder="enter valid address"><br>
+      </div>
+      <!-- education details -->
+      <!-- Graduation details -->
+      <div class="details">
+        <h1>Graduation Details</h1>
+        <label for="ginstitute">
+        <select id="ginstitute" placeholder="select institute">
+          <option>select institute</option>
+          <option>MITS</option>
+          <option>JNTUA</option>
+          <option>JNTUK</option>
+          <option>GITAM</option>
+        </select><br>
+        </label>
+        <select id="gbranch">
+          <option>select branch</option>
+          <option>CSE</option>
+          <option>ECE</option>
+          <option>Mech</option>
+          <option>Civil</option>
+          <option>EEE</option>
+        </select><br>
+        <select id="gyear">
+          <option>select year of passing</option>
+          <option>2020</option>
+          <option>2021</option>
+          <option>2022</option>
+          <option>2023</option>
+        </select><br>
+        <input type="text" name="percentage" id="gper" placeholder="enter percentage"><br>
+      </div>
+      <!-- intermediate details -->
+        <div class="details">
+          <h1>Intermediate Details</h1>
+          <label for="iinstitute">
+          <select id="iinstitute">
+            <option>select institute</option>
+            <option>LRG</option>
+            <option>Chaitanya</option>
+            <option>Narayana</option>
+            <option>Parayana</option>
+          </select><br>
+          </label>
+          <select id="ibranch">
+            <option>select branch</option>
+            <option>MPC</option>
+            <option>BiPC</option>
+            <option>CEC</option>
+            <option>MEC</option>
+            <option>HEC</option>
+          </select><br>
+          <select id="iyear">
+            <option>select year of passing</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+          </select><br>
+          <input type="text" name="percentage" id="iper" placeholder="enter percentage"><br>
+      </div>
+      <!-- ssc details -->
+      <div class="details">
+        <h1>School Details</h1>
+        <label for="sinstitute">
+        <select id="sinstitute">
+          <option>select institute</option>
+          <option>LRG</option>
+          <option>Narayana</option>
+          <option>Chaitanya</option>
+          <option>Deepthi</option>
+        </select><br>
+        </label>
+        <select id="syear">
+          <option>select year of passing</option>
+          <option>2014</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+        </select><br>
+        <input type="text" name="percentage" id="sper" placeholder="enter percentage"><br>
+    </div>
+    <!-- skills -->
+    <div class="skills">
+      <h1>Skills</h1>
+      <input type="text" name="skills" id="skills" placeholder="enter ur skills">
+    </div>
+    <!-- button -->
+    <button type="button" name="button" id="button" onclick="submitData()">SUBMIT</button>
+  </div>
+  </body>
+  <script type="text/javascript" src="js/main.js">
+
+  </script>
+</html>

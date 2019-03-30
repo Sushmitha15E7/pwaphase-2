@@ -1,0 +1,40 @@
+body{
+  background:#E4C1EE   ;
+}
+.parent{
+  width:100%;
+  background:#FCFCA9      ;
+  border:2px solid blue;
+  display: flex;
+  flex-wrap:wrap;
+}
+.career,.skills{
+  width:90%;
+  border:2px solid blue;
+  margin:2%;
+  padding:2%;
+  text-align:center;
+  background:#C6EF8A    ;
+}
+.details{
+width:40%;
+margin:2%;
+padding:2%;
+border:2px solid blue;
+background:#A9EEF6 ;
+text-align:center;
+}
+#button{
+  font-weight:bold;
+  font-size:25px;
+  text-align: center;
+  margin-left:40%;
+  padding:1%;
+  margin-bottom: 3%;
+  background:#EF8AB0  ;
+  border:2px solid blue;
+}
+input,select{
+  width:80%;
+  margin:2%;
+}
